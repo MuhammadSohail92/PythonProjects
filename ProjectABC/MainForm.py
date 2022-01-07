@@ -11,7 +11,7 @@ class FirstPage(tk.Frame):
 #        photo = ImageTk.PhotoImage(load)
 #        label = tk.Label(self, image=photo)
 #        label.image = photo
-#        label.place(x=0, y=0)
+##        label.place(x=0, y=0)
 
         border = tk.LabelFrame(self, text='Login', bg='ivory', bd=10, font=("Arial", 20))
         border.pack(fill="both", expand="yes", padx=150, pady=150)
