@@ -84,13 +84,20 @@ def getsessionuser():
 
 
 # get AddingComponents
-def addComponents(a, b, cc):
-
+def addComponents(abc):
     # messagebox.showinfo("info",type(a)type(b)+" "+type(cc))
     pycon = sqlite3.connect('appdb.db')
 
     c = pycon.cursor()
-    c.execute(" INSERT INTO componentslist VALUES(?,?,?)", ([a], [b], [cc]))
+    c.execute(" INSERT INTO componentslist VALUES(?,?,?)", abc)
+    pycon.commit()
+    pycon.close()
+
+
+def addCommpQty(abc):
+    pycon = sqlite3.connect('appdb.db')
+    c = pycon.cursor()
+    c.execute(" INSERT INTO componentslist VALUES(?,?,?)", abc)
     pycon.commit()
     pycon.close()
 

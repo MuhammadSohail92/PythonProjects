@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from PIL import Image, ImageTk  # pip install pillow
+# from PIL import Image, ImageTk  # pip install pillow
 import LoginPage as lp
 import seconPage as sp
 import thirdPage as tp
@@ -43,6 +43,8 @@ class Application(tk.Tk):
 
 
 app = Application()
-app.maxsize(800, 500)
+app.maxsize(1024, 600)
+app.state('zoomed')
 app.mainloop()
 # https://ishwargautam.blogspot.com/2021/10/multiple-page-gui-window-with-login.html
+# https://www.youtube.com/watch?v=QfhF9BnmN6E

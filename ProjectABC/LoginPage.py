@@ -30,7 +30,6 @@ class loginform(tk.Frame):
         T2.place(x=180, y=80)
 
         # check db
-
         def verify():
             try:
                 if dp.verifylogin(T1.get(), T2.get()):
