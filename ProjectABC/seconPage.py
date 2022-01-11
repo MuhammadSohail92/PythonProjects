@@ -1,12 +1,10 @@
 import tkinter as tk
 from tkinter import messagebox
-# from PIL import Image, ImageTk  # pip install pillow
 import LoginPage as lp
 import thirdPage as tp
 import dbPage as dp
+# from PIL import Image, ImageTk  # pip install pillow
 
-
-# import AddComponents as adc
 
 
 class SecondPage(tk.Frame):

@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from PIL import Image, ImageTk  # pip install pillow7
+# from PIL import Image, ImageTk  # pip install pillow7
 import seconPage as sp
 import thirdPage as tp
 import dbPage as dp
